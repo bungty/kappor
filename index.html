@@ -193,7 +193,7 @@ Foto Ideattiva
 <div class="row">
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 <div class="rle_logo">
-<a href="#http://realtimerealtors.in"><img src="images/logo.png" alt="Logo" title="Logo"></a>
+<a href="#S"><img src="images/logo.png" alt="Logo" title="Logo"></a>
 </div>
 </div>
 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -1425,7 +1425,56 @@ Services</strong> </li>
 
 
 
+<style>
+    /* COMMON – Desktop + Mobile */
+.sticky-container {
+  position: fixed;
+  right: 0;              /* LEFT → RIGHT */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
 
+/* List reset */
+.sticky-social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each item – same design */
+.sticky-social-icons li {
+  display: flex;
+  align-items: center;
+  background: #2c2c2c;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px 0 0 6px; /* RIGHT side curve */
+}
+
+/* Icon */
+.sticky-social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Text */
+.sticky-social-icons p {
+  margin: 0 0 0 8px;
+  white-space: nowrap;
+}
+
+/* ✅ MOBILE FIX – sab devices ke liye */
+@media (max-width: 768px) {
+  .sticky-container {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+    </style>
 
 <!-- Main Content -->
 
